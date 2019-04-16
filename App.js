@@ -45,7 +45,7 @@ export default class App extends React.Component {
       return (
         <View key={i} style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', margin: 5, width: width, marginLeft: 50}}>
           <TouchableOpacity style={styles.button} onPress={() => this.onPressDelete(i)}><Text style={{color: 'white'}}>-</Text></TouchableOpacity>          
-          <Text style={{textAlign: "left", width: '75%'}}>{data}{i}</Text>
+          <Text style={{textAlign: "left", width: '75%'}}>{data}</Text>
         </View>
       )
     })
